@@ -1,0 +1,13 @@
+spring:
+  redis:
+    database: 10
+    host: localhost
+    port: 6379
+    client-name: courses
+    connection-pool-size: 200
+    connection-minimum-idle-size: 100
+
+    subscription-connection-pool-size: 50
+    subscription-connection-minimum-idle-size: 10
+    executorServiceWorkers:
+      defaultExecutor: 1

@@ -1,4 +1,4 @@
-package config;
+package test.config;
 
 import org.redisson.Redisson;
 import org.redisson.api.RLiveObjectService;
