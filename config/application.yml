@@ -3,7 +3,7 @@ spring:
     database: 10
     host: localhost
     port: 6379
-    client-name: courses
+    client-name: test
     connection-pool-size: 200
     connection-minimum-idle-size: 100
 
